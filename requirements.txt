@@ -1,0 +1,6 @@
+captcha
+tensorflow
+numpy
+pillow
+streamlit
+opencv-python
