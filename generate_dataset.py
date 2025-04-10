@@ -13,7 +13,7 @@ def generate_captcha(text, save_path):
 
 def main():
     os.makedirs("captcha_dataset", exist_ok=True)
-    num_images = 10000 
+    num_images = 10000 # number of CAPTCHA images to generate
     for i in range(num_images):
         text = random_text(5)
         filename = f"captcha_dataset/{text}_{i}.png"
